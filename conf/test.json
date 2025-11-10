@@ -1,0 +1,13 @@
+handleSystemSet:json == [
+{"action": "打开", "app": "腾讯视频", "customInnerType": "nativeCommand",
+"feature": "系统应用",
+"context":
+          {"attributes":
+                  {"agent_protocal_version": "1.1",
+                    "aispeechClientExtra":
+                           {"innerRequestType": "userInputText", "silence": false},
+                           "enablePredict": false,
+                 "screenHotwords":["顺丰速运", "阅文短剧", "掼蛋", "便民服务", "腾讯日历","小鸡出击", "航旅纵横", "全部", "内容视听", "实用工具","铁路一万二千三百零六", "宝宝巴士", "微乐四川麻将", "PP停车", "猫眼电影演出玩乐I电影票演唱会","交管一二一二三", "交管12123", "用车出行", "瑞幸咖啡", "跳一跳","粗门", "捷停车", "天天斗地主", "携程旅行订酒店机票火车汽车门票", "开心消消乐","腾讯视频", "儿童专区", "微信小游戏", "快手短视频", "微信听书","微信快递服务", "铁路幺二三零六", "交管幺二幺二三", "最近使用", "微信小程序","铁路一二三零六", "同程旅行", "铁路12306", "贝瓦儿歌", "腾讯会议","交管一万二千一百二十三"]}, "currentIntentName": "打开应用控制", "enableContextOutput": false}, "dmInput": "打开腾讯视频", "dmInputSimple": "打开腾讯视频", "intentName": "打开应用控制", "widgetParams": {"duiWidget": "text","name": "default", "type": "text", "widgetName":"default", "intentName": "打开应用控制", "skillId": "2023092700000035","skillName": "零跑应用程序控制本地", "taskName": "打开关闭应用控制"}, "recordId": "50a5f96b890643d89a89231b7b684349", "skillId": "2023092700000035", "skillName": "零跑应用程序控制本地", "taskName": "打开关闭应用控制", "hasFrontTask": false, "isGlobal": false}
+] getPreActivity() ==com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher
+
+{"action":"打开","app":"腾讯视频","customInnerType":"nativeCommand","feature":"系统应用","context":{"attributes":{"agent_protocal_version":"1.1","aispeechClientExtra":{"innerRequestType":"userInputText","silence":false},"enablePredict":false,"screenHotwords":["阅文短剧"]},"currentIntentName":"打开应用控制","enableContextOutput":false},"dmInput":"打开腾讯视频","dmInputSimple":"打开腾讯视频","intentName":"打开应用控制","widgetParams":{"duiWidget":"text","name":"default","type":"text","widgetName":"default","intentName":"打开应用控制","skillId":"2023092700000035","skillName":"零跑应用程序控制本地","taskName":"打开关闭应用控制"},"recordId":"9d323e676b27449ea5e6773eaa3db6ab","skillId":"2023092700000035","skillName":"零跑应用程序控制本地","taskName":"打开关闭应用控制","hasFrontTask":false,"isGlobal":false}
