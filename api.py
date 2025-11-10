@@ -111,6 +111,7 @@ def handle_webhook():
     if request.is_json:
         data = request.get_json()
         if not data:
+            logger.warn('Invalid data format')
             return jsonify({"error": "Invalid JSON"}), 400
 
         # 判断是GitLab还是GitHub的webhook
